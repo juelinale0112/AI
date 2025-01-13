@@ -19,4 +19,4 @@ This application extracts textual information from engineering drawings, such as
 ## How to Use
 1. Run the code in a Python environment:
    ```bash
-   streamlit run app.py
+   streamlit run ocr.py
