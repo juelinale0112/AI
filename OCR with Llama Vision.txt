@@ -1,0 +1,22 @@
+Engineering Drawing OCR with Llama Vision 📐
+
+This application extracts textual information from engineering drawings, such as labels, dimensions, and annotations. It uses the  Llama Vision model** for OCR and provides a user-friendly interface built with **Streamlit**.
+
+## What This Code Does
+1. Allows users to upload engineering drawing images (PNG, JPG, JPEG).
+2. Processes the uploaded image using the Llama Vision model via the Ollama API.
+3. Extracts and displays relevant text, including:
+   - Labels
+   - Dimensions
+   - Annotations
+4. Provides a "Clear" button to reset the application and start fresh.
+
+## Key Components
+1. Streamlit: Framework used to build the interactive web application.
+2. Ollama: API to interact with the Llama Vision model for image analysis.
+3. Pillow (PIL): Library used for handling and displaying images.
+
+## How to Use
+1. Run the code in a Python environment:
+   ```bash
+   streamlit run app.py
